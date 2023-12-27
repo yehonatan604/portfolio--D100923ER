@@ -33,6 +33,14 @@ header {
     margin: 2em;
     box-shadow: 5px 5px 15px gray;
     border-radius: 10px;
+    background-color: transparent;
+    transition: .5s;
+}
+
+.card:hover {
+    background-color: gray;
+    cursor: pointer;
+    transition: .5s;
 }
 
 #container-gallery {
