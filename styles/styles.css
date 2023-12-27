@@ -8,6 +8,10 @@ header {
     position: sticky;
     top: 0px;
     left: 0px;
+}
+
+#gallery,
+header {
     text-align: center;
 }
 
@@ -21,4 +25,20 @@ header {
 #container-footer {
     display: flex;
     justify-content: space-between;
+}
+
+.card {
+    height: 300px;
+    width: 200px;
+    margin: 2em;
+    box-shadow: 5px 5px 15px gray;
+    border-radius: 10px;
+}
+
+#container-gallery {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
 }
