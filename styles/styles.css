@@ -1,0 +1,24 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+}
+
+#container-footer,
+header {
+    background-color: rgb(17, 16, 16);
+    color: azure;
+    padding: 2em;
+}
+
+#container-footer {
+    display: flex;
+    justify-content: space-between;
+}
