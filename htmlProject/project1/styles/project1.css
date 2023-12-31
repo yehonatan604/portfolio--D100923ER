@@ -39,3 +39,25 @@
     display: flex;
     flex-direction: column;
 }
+
+.form-control>label {
+    font: normal normal bold 16px/24px Heebo;
+    letter-spacing: 0px;
+    color: #2C2C2C;
+}
+
+.form-control>input {
+    height: 50px;
+    background: #E5EEFF;
+    border: 0;
+    border-bottom: 5px solid #020253;
+
+}
+
+.form-control>input[type=submit] {
+    background: #020253;
+    color: #FFFFFF;
+    width: 50%;
+    font: normal normal bold 22px/30px Heebo;
+    margin-top: 1em;
+}
