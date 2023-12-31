@@ -61,3 +61,41 @@
     font: normal normal bold 22px/30px Heebo;
     margin-top: 1em;
 }
+
+@media screen and (max-width:1400px) {
+    #container {
+        flex-direction: column;
+    }
+
+    #form {
+        width: 70%;
+    }
+
+    #container-img>img {
+        width: 100%;
+    }
+
+    #container-content {
+        margin: 5em 0;
+    }
+
+    #form>h1 {
+        font: normal normal 900 28px/41px Heebo;
+    }
+
+    #form>p {
+        font: normal normal normal 15px/22px Heebo;
+    }
+
+    .form-control>label {
+        font: normal normal bold 10px/14px Heebo;
+    }
+
+    .form-control>input {
+        height: 34px;
+    }
+
+    .form-control>input[type=submit] {
+        width: 100%;
+    }
+}
